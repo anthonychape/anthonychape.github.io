@@ -12,6 +12,13 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/component.css">
+    <script src="/js/modernizr.custom.js"></script>
+    <script src="/js/modernizr.link.custom.js"></script>
+    <script src="/js/intense.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/main.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
@@ -23,14 +30,13 @@
 
     <div class="bg-header">
 <div id="header">
-<div class="logo"><a href="#"><img src="img/logo.png"/></a></div>
-<div class="navmenu">
-<script>
-$(".logo").click(
-      function(){ alert('bonjour !'); }
-    );
-</script>
-</div>	
+<div class="logo"><a class="logo-block" href="#"></a></div>
+<ul class="navmenu nav-menu-right">
+<li class="li-nav-menu-right"><a href="#_"><span class="menu-icon glyphicon glyphicon-home"></span><span class="menu-link pad-left-accueil">Accueil</span></a></li>
+<li class="li-nav-menu-right"><a href="#_"><span class="menu-icon glyphicon glyphicon-briefcase"></span><span class="menu-link pad-left-portfolio">Portfolio</span></a></li>
+<li class="li-nav-menu-right"><a href="#_"><span class="menu-icon glyphicon glyphicon-file"></span><span class="menu-link pad-left-mon-cv">Mon CV</span></a></li>
+<li class="li-nav-menu-right"><a href="#_"><span class="menu-icon glyphicon glyphicon-envelope"></span><span class="menu-link pad-left-contact">Contact</span></a></li>
+</ul>
 </div>
 </div>
  
@@ -63,6 +69,8 @@ $(".logo").click(
 
 </footer>
 
+    <script src="/js/cbpAnimatedHeader.js"></script>
+	<script src="/js/classie.js"></script>
 
     </body>
 </html>
